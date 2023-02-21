@@ -1,5 +1,5 @@
-<h1 align="center">☣️ Github Page Repository for earthtoyash.github.io ☣️</h1>
-<h3 align="center">Developments are made and merged periodically by the admin.</h3>
+<h1 align="center">Github Page Repository for earthtoyash.github.io</h1>
+<h3 align="center">☣️ Developments are made and merged periodically by the admin. ☣️</h3>
 <h3 align='center'>Feel free to contribute to this opensource project.</h3>
 <h3 align="center">Link to the project:- https://earthtoyash.github.io/</h3>
 <h3 align='center'>⚠️ DON'T DO SPAM PULL REQUESTS. ⚠️</h3>
