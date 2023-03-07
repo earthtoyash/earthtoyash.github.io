@@ -12,8 +12,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Anonymous_emblem.svg/800px-Anonymous_emblem.svg.png">
+    <script>
+        document.addEventListener("contextmenu", function(e) {
+            e.preventDefault();
+        }, false);
+    </script>
 </head>
-<body class="main-content">
+<body class="main-content">       
     <header class="container header active" id="home">
         <div class="header-content">
             <div class="left-header">
@@ -27,7 +32,7 @@
                     Hi, I'm <span>Yashwant Singh.</span>
                     A cybersecurity analyst and researcher.
                 </h1>
-                </br>
+                </br>               
 			<div class="contact-icons">
                 <center>
                     <div class="contact-icon">
@@ -112,7 +117,7 @@
                             <br />
                             <br />
                             <p class="small-text">Rank 560 in hackthebox </p>
-                            <script src="https://www.hackthebox.eu/badge/1151183" target="_blank"></script>
+                            <script align="right" src="https://www.hackthebox.eu/badge/1151183" target="_blank"></script>
                             <br />
                             <br />
                             <p class="small-text">In top 1% in tryhackme</p>
@@ -291,17 +296,22 @@
         </section>
         <section class="container" id="portfolio">
             <div class="main-title">
-                <h2>My <span>Work</span><span class="bg-text">Info & Updates</span></h2>
-            </div>
+                <h2>My <span>Work</span><span class="bg-text">My Stuff</span></h2>
+            </div>  
             <p class="port-text">
-                This page is dedicated to Resources, Information & Updates. Feel free to browse.
+                This page is for random stuff. Feel free to browse.
+                New* section: added on January 1, 2023.
             </p>
-            <p class="port-text">
-                New* section added on January 1, 2023.
-            </p>
-            <div class="port-text">
-                <p><blockquote>This page is currently under development.</blockquote></p>
+            <div>
+                <center>
+                    <audio id="background-music" src="file:///home/dw1ght/Documents/vscode/earthtoyash.github.io-3.2.4.alpha/index_files/lobby.mp3" autoplay loop controls preload="metadata"></audio>
+                    <script>
+                        var backgroundMusic = document.getElementById("background-music");
+                        backgroundMusic.play();
+                    </script>
+                </center>
             </div>
+            <br />
             <div>
                 <center>
                 <img src="https://i.imgur.com/wh9cIpf.png" alt="V">
