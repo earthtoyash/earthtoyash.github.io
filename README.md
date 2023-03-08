@@ -8,6 +8,8 @@
 <p align="center">Home page</p>
 <img align="right" alt="Preview" width="1000" src="https://i.imgur.com/LvfelVr.png">
 <p align="center">About Me</p>
+<img align="right" alt="Preview" width="1000" src="https://i.imgur.com/tCVzdeB.png">
+<p align="center">My Work</p>
 <img align="right" alt="Preview" width="1000" src="https://i.imgur.com/UNK8ldw.png">
 <p align="center">My Articles</p>
 <img align="right" alt="Preview" width="1000" src="https://i.imgur.com/SceOBFm.png">
