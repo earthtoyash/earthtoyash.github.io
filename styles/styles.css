@@ -990,4 +990,16 @@ img {
   text-align: center;
 }
 
+.contract-card {
+  position: center;
+  font-size: 30px;
+  text-align: center;
+  padding: 15px;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
 /*# sourceMappingURL=styles.css.map */
