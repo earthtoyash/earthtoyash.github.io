@@ -5,15 +5,17 @@
   padding: 0;
 }
 
-/* Style for the header */
+
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: #33333378;
+  color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 15px;
 }
+
+
 
 h1 {
   font-size: 2rem;
@@ -34,7 +36,6 @@ nav ul li a {
   font-weight: bold;
 }
 
-/* Style for the main content */
 main {
   max-width: 800px;
   margin: 0 auto;
@@ -42,8 +43,8 @@ main {
 }
 
 article {
-  border: 1px solid #ccc;
-  padding: 20px;
+  border: 2px solid #00ffea;
+  padding: 25px;
   margin-bottom: 20px;
 }
 
@@ -53,42 +54,79 @@ h2 {
 }
 
 .date {
-  font-style: italic;
-  margin-bottom: 20px;
+  font-style:oblique;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #71ff64;
 }
 
-.likes button {
-  background-color: transparent;
-  color: #333;
-  border: none;
-  cursor: pointer;
-  margin-right: 10px;
+
+:root {
+  --color-primary: #10141c;
+  --color-secondary: #b6dd1ab5;
+  --color-white: #FFFFFF;
+  --color-black: #000;
+  --color-grey0: #f8f8f8;
+  --color-grey-1: #dbe1e8;
+  --color-grey-2: #b2becd;
+  --color-grey-3: #6c7983;
+  --color-grey-4: #454e56;
+  --color-grey-5: #2a2e35;
+  --color-grey-6: #12181b;
+  --br-sm-2: 14px;
+  --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
 }
 
-.likes button:hover {
-  text-decoration: underline;
+body {
+  background-color: var(--color-primary);
+  font-family: "Fira Code";
+  font-size: 1.1rem;
+  color: var(--color-white);
+  transition: all 0.4s ease-in-out;
 }
 
-.likes span {
-  font-size: 0.9rem;
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
 }
 
-.share {
+header {
+  min-height: 15vh;
+  color: var(--color-white);
+  overflow: hidden;
+  padding: 0 !important;
+}
+
+.social-media-icons {
   display: flex;
+  justify-content: center;
   align-items: center;
-  margin-top: 20px;
 }
 
-.share p {
-  margin-right: 10px;
-  font-size: 0.9rem;
+.social-media-icons a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffe0e010;
+  transition: background-color 0.3s ease;
 }
 
-.share a {
-  color: #333;
-  margin-right: 10px;
+.social-media-icons a:hover {
+  background-color: #fffedd4e; 
 }
 
-.share a:hover {
-  color: #00aced;
+.social-media-icons i {
+  color: #31d2ff;
+  font-size: 20px;
+}
+
+.title {
+  color: #31d2ff;
+  margin-left:0px 150px;
 }
