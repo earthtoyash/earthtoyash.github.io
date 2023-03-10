@@ -4,7 +4,7 @@
 <h3 align="center">Link to the project:- https://earthtoyash.github.io/</h3>
 <h3 align='center'>⚠️ DON'T DO SPAM PULL REQUESTS. ⚠️</h3>
 <h4 align='center'>Preview below ⬇️⬇️⬇️⬇️⬇️</h4>
-<img align="right" alt="Preview" width="1000" src="https://i.imgur.com/nrlmWe9.png">
+<img align="right" alt="Preview" width="1000" src="https://i.imgur.com/HD4lshH.png">
 <p align="center">Home page</p>
 <img align="right" alt="Preview" width="1000" src="https://i.imgur.com/LvfelVr.png">
 <p align="center">About Me</p>
