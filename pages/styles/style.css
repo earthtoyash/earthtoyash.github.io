@@ -8,13 +8,35 @@
 
 header {
   background-color: #33333378;
-  color: #ffffff;
+  color:rgb(173, 164, 0);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 10px;
   padding: 15px;
+  margin-left:0px 150px;
 }
 
+title {
+  background-color: #0a433e52;
+  color:#bd7cff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  padding: 25px;
+  margin-left:0px 150px;
+  font-size: 30px;
+  font-family:'Segoe UI';
+  font-weight: bold;
+  border-radius: 8px;
+
+}
+
+
+.title {
+  color: rgb(173, 164, 0);
+}
 
 
 h1 {
@@ -23,6 +45,7 @@ h1 {
 
 nav ul {
   display: flex;
+  padding: 20px;
 }
 
 nav ul li {
@@ -39,13 +62,16 @@ nav ul li a {
 main {
   max-width: 800px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 15px;
 }
 
 article {
   border: 2px solid #00ffea;
   padding: 25px;
   margin-bottom: 20px;
+  background-color: #0000007b;
+  box-shadow: 0 3px 15px rgba(0, 238, 255, 0.801);
+  border-radius: 8px;
 }
 
 h2 {
@@ -56,8 +82,9 @@ h2 {
 .date {
   font-style:oblique;
   font-weight: bold;
-  margin-bottom: 10px;
+  padding: 10px;
   color: #71ff64;
+  text-align: right;
 }
 
 
@@ -122,11 +149,63 @@ header {
 }
 
 .social-media-icons i {
-  color: #31d2ff;
-  font-size: 20px;
+  color: #ffffff;
+  font-size: 25px;
 }
 
-.title {
+.share-media-icons {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.share-media-icons a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffe0e010;
+  transition: background-color 0.3s ease;
+}
+
+.share-media-icons a:hover {
+  background-color: #fffedd4e; 
+}
+
+.share-media-icons i {
   color: #31d2ff;
-  margin-left:0px 150px;
+  font-size: 25px;
+}
+
+.share-media-icons i {
+  color: #31d2ff;
+  font-size: 25px;
+}
+
+.main-title {
+  text-align: center;
+  padding: 75px;
+}
+.main-title h2 {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.main-title h2 span {
+  color: var(--color-secondary);
+}
+.main-title h2 .bg-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: var(--color-grey-5);
+  transition: all 0.4s ease-in-out;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  font-weight: 800;
+  font-size: 6.3rem;
 }
